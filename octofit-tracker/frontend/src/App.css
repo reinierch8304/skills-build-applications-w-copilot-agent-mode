@@ -1,0 +1,99 @@
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #222;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.navbar {
+  margin-bottom: 30px;
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+  border-radius: 8px;
+}
+
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.navbar-brand img {
+  height: 32px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.card {
+  margin-bottom: 20px;
+  background: #f7fbff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
+.table {
+  background: #e3f2fd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  color: #222;
+}
+
+.table thead {
+  background: #1976d2;
+  color: #fff;
+}
+
+h2, h3 {
+  margin-bottom: 20px;
+  color: #1976d2;
+  font-weight: 700;
+}
+
+.btn {
+  margin-right: 10px;
+  background: linear-gradient(90deg, #1976d2 0%, #64b5f6 100%);
+  color: #fff;
+  border: none;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: linear-gradient(90deg, #64b5f6 0%, #1976d2 100%);
+  color: #fff;
+}
+
+.modal-content {
+  border-radius: 10px;
+  background: #e3f2fd;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+a {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0d47a1;
+}
+
+/* Logo styles */
+.octofit-logo {
+  height: 32px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+/* Favicon styles (if needed for custom display) */
+.favicon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
